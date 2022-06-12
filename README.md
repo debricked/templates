@@ -22,3 +22,7 @@ Here you find templates for integrating your repository with us.
 ## Azure Pipelines
 - Add Debricked token variable. [Read more](https://debricked.com/docs/integrations/ci-build-systems/azure-devops.html)
 - [See template](azure-pipelines.yml)
+
+## Argo Workflows
+- Add Debricked token variable. [Read more](https://debricked.com/docs/integrations/ci-build-systems/argo-workflows.html)
+- [See template](argo.yml)

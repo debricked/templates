@@ -30,4 +30,3 @@ Here you find templates for integrating your repository with us.
 ## Travis CI
 - Add Debricked token variable. [Read more](https://debricked.com/docs/integrations/ci-build-systems/travis.html)
 - [See template](.travis.yml)
-

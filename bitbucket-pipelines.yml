@@ -1,0 +1,15 @@
+image:
+    name: atlassian/default-image:2
+
+test: &test
+    step:
+        name: Test
+        script:
+            -   pipe: debricked/debricked-scan:1.4.1
+                variables:
+                    DEBRICKED_TOKEN: $DEBRICKED_TOKEN
+                    # For all options, please check https://bitbucket.org/debricked/debricked-scan
+
+pipelines:
+    default:
+        - <<: *test
